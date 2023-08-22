@@ -1,0 +1,15 @@
+### GET BARANG
+
+GET http://localhost:3000/barang
+
+
+
+### CREATE BARANG
+
+POST http://localhost:3000/barang
+Content-Type: application/json
+
+{
+    "nama" : "Sabun",
+    "harga" : 3500
+}
